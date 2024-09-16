@@ -516,6 +516,14 @@
             
         </script>
         <script src="./script.js" defer></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              const year = new Date().getFullYear();
+              document.getElementById('copyright-year').textContent = year;
+            });
+          </script>
+          <p class="text-center mt-10">© <span id="copyright-year"></span> <a class="text-blue-500" href="https://github.com/sumaiyaamin">sumaiyaamin</a>. All rights reserved.</p>
+          
        
 </body>
 </html>
